@@ -46,6 +46,7 @@ CLANG_FLAGS = -I. \
 	-Wno-gnu-variable-sized-type-not-at-end \
 	-Wno-address-of-packed-member -Wno-tautological-compare \
 	-Wno-unknown-warning-option  \
+	-fno-stack-protector \ # has to add this to work on clang 16
 	-g -O2 -emit-llvm
 
 all: $(BIN)

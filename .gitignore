@@ -4,3 +4,6 @@
 *.o
 **/compile_commands.json
 *.idx
+*.pb.go
+ui/opensnitch/ui_pb2_grpc.py
+ui/opensnitch/ui_pb2.py

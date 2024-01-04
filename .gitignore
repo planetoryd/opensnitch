@@ -3,3 +3,4 @@
 *.profile
 *.o
 **/compile_commands.json
+*.idx

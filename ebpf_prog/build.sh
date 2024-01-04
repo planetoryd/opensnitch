@@ -1,1 +1,1 @@
-bear -- make KERNEL_DIR=$(realpath ~/linux/)
+make KERNEL_DIR=$(realpath ~/linux/)
